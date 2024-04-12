@@ -1,0 +1,7 @@
+/node_modules
+.direnv
+.envrc
+spring*.json
+fall*.json
+summer*.json
+courses.txt
