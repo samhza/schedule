@@ -84,7 +84,7 @@ for(const [i, courseString] of allCourses.entries()){
 for(const cs of missing){
     console.log("we don't have "+cs);
 };
-if(missing) process.exit(1);
+if(missing.length) process.exit(1);
 
 for(const [i,val] of terms.entries()){
     const name = val.name;
